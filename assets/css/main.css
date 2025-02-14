@@ -43,6 +43,12 @@ footer, header, hgroup, menu, nav, section {
 		background-size: cover;
 		background-position: center;
 	}
+	.circle-image2 {
+		width: 100%; /* Adjust as needed */
+		height: auto; /* Ensures responsiveness */
+		aspect-ratio: 1 / 1; /* Set your desired aspect ratio */
+		object-fit: cover; /* Ensures cropping instead of distortion */
+	}
 
 body {
 	line-height: 1;
