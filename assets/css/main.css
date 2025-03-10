@@ -32,7 +32,7 @@ footer, header, hgroup, menu, nav, section {
 	.cropped-image {
 		width: 100%; /* Adjust as needed */
 		height: auto; /* Ensures responsiveness */
-		aspect-ratio: 20 / 9; /* Set your desired aspect ratio */
+		/*aspect-ratio: 20 / 9; /* Set your desired aspect ratio */
 		object-fit: cover; /* Ensures cropping instead of distortion */
 	}
 	.circle-image {
