@@ -3181,6 +3181,9 @@ input, select, textarea {
 				transition-delay: 0s;
 				display: block;
 				margin: 0 0 1.5em 0;
+				margin: 0 auto 1.5em auto; /* Centers horizontally */
+				width: 60%; /* Adjust as needed */
+				text-align: center; /* Ensure inline elements inside stay centered */
 			}
 
 				#header.alt .logo img {
