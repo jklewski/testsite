@@ -46,6 +46,7 @@ footer, header, hgroup, menu, nav, section {
 	.circle-image2 {
 		width: 100%; /* Adjust as needed */
 		height: auto; /* Ensures responsiveness */
+		border-radius: 1%;
 		aspect-ratio: 1 / 1; /* Set your desired aspect ratio */
 		object-fit: cover; /* Ensures cropping instead of distortion */
 	}
@@ -165,10 +166,10 @@ input, select, textarea {
 
 	body {
 		background-color: #000000;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #171b18 15%, #002013 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #171b18 15%, #002013 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #171b18 15%, #002013 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #171b18 15%, #002013 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #1f4729 15%, #002013 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #1f4729 15%, #002013 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #1f4729 15%, #002013 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #1f4729 15%, #002013 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2429,13 +2430,13 @@ input, select, textarea {
 
 	.image {
 		border-radius: 8px;
-		border: 0;
+		border: 5;
 		display: inline-block;
 		position: relative;
 	}
 
 		.image img {
-			border-radius: 8px;
+			border-radius: 1px;
 			display: block;
 		}
 
@@ -3065,7 +3066,7 @@ input, select, textarea {
 		.spotlight .image {
 			display: inline-block;
 			margin-left: 4em;
-			padding: 0.65em;
+
 			border-radius: 100%;
 			border: solid 1px;
 		}
@@ -3133,7 +3134,7 @@ input, select, textarea {
 	.spotlight .image {
 		border-color: rgba(255, 255, 255, 0.35);
 	}
-	
+
   .disabled-link {
     pointer-events: none;
     color: gray;
