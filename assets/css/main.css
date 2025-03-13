@@ -3133,7 +3133,14 @@ input, select, textarea {
 	.spotlight .image {
 		border-color: rgba(255, 255, 255, 0.35);
 	}
-
+	
+  .disabled-link {
+    pointer-events: none;
+    color: gray;
+    background-color: #ddd;
+    text-decoration: none;
+    cursor: not-allowed;
+  }
 /* Header */
 
 	#header {
