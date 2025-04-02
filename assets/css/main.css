@@ -35,6 +35,12 @@ footer, header, hgroup, menu, nav, section {
 		/*aspect-ratio: 20 / 9; /* Set your desired aspect ratio */
 		object-fit: cover; /* Ensures cropping instead of distortion */
 	}
+	.cropped-image2 {
+		width: 100%; /* Adjust as needed */
+		height: 400pt; /* Ensures responsiveness */
+		/*aspect-ratio: 20 / 9; /* Set your desired aspect ratio */
+		object-fit: cover; /* Ensures cropping instead of distortion */
+	}
 	.circle-image {
 		width: 300px;
 		height: 300px;
